@@ -1,5 +1,7 @@
+## ConvLSTM - 
+### A Hybrid approach combining LSTMs and Convolutional layers - Modelling time series images  
+
 Achieved a high accuracy of 99.5%, primarily due to its tendency to predict '0' or no rain & 76% for little bit rain.
-Data sample 
 ![Training](https://github.com/user-attachments/assets/f34f2495-e850-423d-bc21-9da246318f2e)
 
 This project focuses on a Convoluted LSTM approach for weather prediction based on satelite images along with weather station data.

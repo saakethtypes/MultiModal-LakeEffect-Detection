@@ -1,4 +1,6 @@
 Achieved a high accuracy of 99.5%, primarily due to its tendency to predict '0' or no rain & 76% for little bit rain.
+![Training](https://github.com/user-attachments/assets/6a0fe418-6381-4871-a477-2fda992dd117)
+
 This project focuses on a Convoluted LSTM approach for weather prediction based on satelite images along with weather station data.
 
 - **Feature Engineering**: Cloud patterns like horizontal and vertical scales were fed into the model just like other Temp, Dew point.
@@ -12,3 +14,5 @@ This project focuses on a Convoluted LSTM approach for weather prediction based 
 - **Hybrid LSTM and ConvLSTM Model**: The final breakthrough was developing a hybrid model combining LSTM (for time-series data) and ConvLSTM (for image data). This model processes sequences of images over time, providing a comprehensive understanding of spatio-temporal data, especially in imbalanced datasets.
 
 - **Feature Correlation Reduction**: Tested the removal of highly correlated features to streamline the dataset. Despite some improvements in data clarity, the hybrid LSTM and ConvLSTM model remained superior, effectively leveraging the comprehensive data, including correlated features.
+
+![Training](https://github.com/user-attachments/assets/f34f2495-e850-423d-bc21-9da246318f2e)
